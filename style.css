@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: #ddd;
+}
+
+h1 {
+  color: white;
+  background-color: red;
+  text-align: center;
+}
+
+.guest-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ospite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 100px;
+  background-color: darkgreen;
+  margin: 10px;
+}
+
+.payment-cont h3 {
+  text-align: center;
+}
